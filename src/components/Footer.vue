@@ -16,7 +16,7 @@ export default {
 <style scoped>
   h3{
     color: red;
-    text-align: center;
-    margin-top: 50px;
+    text-align: start;
+    margin: 60px;
   }
 </style>
