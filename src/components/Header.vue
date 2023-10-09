@@ -1,9 +1,9 @@
 <script>
 export default {
-  name: Header,
+  name: 'Header',
   data(){
     return{
-      titolo: 'Titolo nell\'header'
+      titolo: 'Titolo da vue (importato in App.vue da Header.vue, settato con style scoped)'
     }
   }
 }
@@ -13,6 +13,9 @@ export default {
   <h1>{{ titolo }}</h1>
 </template>
 
-<style>
-
+<style scoped>
+    h1{
+    color: blue;
+    text-align: center;
+  }
 </style>

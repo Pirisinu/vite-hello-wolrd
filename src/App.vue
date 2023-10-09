@@ -1,13 +1,16 @@
   <script>
   import Header from './components/Header.vue';
+  
+  import Footer from './components/Footer.vue';
+
   export default {
-    name: 'app',
+    name: 'App',
     components:{
       Header
     },
     data(){
       return{
-        paragrafo: 'ciao??'
+        paragrafo: 'lorem ipsum dolor sit amet, consectetur adip occum nost (Paragrafo generato direttamente in App.vue)'
       }
     }
   }
@@ -15,9 +18,10 @@
 
 <template>
   <Header />
-  <h1>{{paragrafo}}</h1>
+  <p>{{paragrafo}}</p>
+  <Footer />
 </template>
 
-<style>
+<style >
 
 </style>
